@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 #load Covid data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('/Users/payalmoorti/Documents/Data Visualization /Python Project/data_without_region_agg.csv')
+    df = pd.read_csv('data_without_region_agg.csv')
     return df
 
 df = load_data()  
